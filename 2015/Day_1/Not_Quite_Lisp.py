@@ -24,7 +24,7 @@ def get_first_basement(text):
 
 
 if __name__ == "__main__":
-    with open('./2015/Day_1/day_1_puzzle_input.txt', 'r') as f:
+    with open('./2015/Day_1/puzzle_input.txt', 'r') as f:
         text = f.readline()
         final_pos = get_final_pos(text)
         first_basement_pos = get_first_basement(text)
